@@ -1,0 +1,2 @@
+# bluequote.org
+Blue Quote
