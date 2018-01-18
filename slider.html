@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script async src="https://use.fontawesome.com/5019b4c71b.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+  <title>Slider</title>
+  <style>
+  body {
+    background-color: #000;
+  }
+/* MOBILE CAROUSEL */
+.full-width-carousel{
+	width: 100%;
+	position: relative;
+	background: black;
+	height: 0;
+	margin-bottom: 160px;
+	margin-top: -80px;
+}
+
+.full-width-carousel-inner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 110%;
+	height: 100%;
+}
+
+.full-width-carousel-dummy{
+	position: relative;
+	margin: 0 30px;
+	height: 100%;
+	/*z-index: 14;*/
+}
+
+.full-width-carousel-item{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+	/*z-index: 12;*/
+	-webkit-transition: opacity .4s linear;
+	-moz-transition: opacity .4s linear;
+	-ms-transition: opacity .4s linear;
+	-o-transition: opacity .4s linear;
+	transition: opacity .4s linear;
+}
+
+.full-width-carousel-item-inner{
+	width: 100%;
+	height: 100%;
+}
+
+.full-width-carousel-item-inner img{
+	width: 100%;
+	height: auto;
+}
+
+.full-width-carousel .current{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	/*z-index: 10;*/
+}
+
+.a-full-width-carousel-right, .a-full-width-carousel-left, .a-shop-carousel-right{
+	width: 22spx;
+	height: 47px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	-webkit-transition: opacity .2s linear;
+	-moz-transition: opacity .2s linear;
+	-ms-transition: opacity .2s linear;
+	-o-transition: opacity .2s linear;
+	transition: opacity .2s linear;
+}
+
+
+
+/* HOME PAGE MOBILE */
+.featured-carousel{
+	padding-bottom: 1%;
+  padding-top: 1%;
+}
+.featured-carousel h2{
+	position: absolute;
+	top: 67%;
+	width: 96%;
+	left: 2%;
+	text-align: center;
+	font-weight: normal;
+	/*padding: 6px 2px 4px 12px;
+	max-width: 75%;
+	float: left;*/
+	font-family: 'Prata', serif;
+	font-size: 18px;
+	line-height: 21px;
+	color: white;
+	text-transform: none;
+}
+
+/*.featured-carousel h2 span, .featured-carousel h3 span{*/
+.featured-carousel-bg{
+	background: url(../_graphics/carousel-bg.png) center center repeat;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*z-index: 11;*/
+}
+
+.featured-carousel h3{
+	position: absolute;
+	font-family: 'Prata', serif;
+	font-size: 36px;
+	letter-spacing: 0.1em;
+	color: white;
+	text-transform: uppercase;
+	width: 300px;
+	left: 50%;
+	text-align: center;
+	margin-left: -150px;
+	bottom: 40%;
+	font-weight: normal;
+}
+
+
+	.a-news-newer, .a-news-older, .a-news-newer:visited, .a-news-older:visited{
+		width: 100px;
+		line-height: 16px;
+	}
+}
+
+.releases-carousel > .current{
+	display: block;
+}
+
+.carousel-release{
+	width: 216px;
+	height: 216px;
+	position: absolute;
+	top: 72px;
+	right: -216px;
+	z-index: 1;
+	background: #000;
+}
+
+.carousel-release img{
+	width: 100%;
+	height: 100%;
+}
+
+
+	/* HOME PAGE */
+	.featured-carousel{
+		height: 500px;
+		margin-bottom: 2px;
+	}
+
+	/* FULL WIDTH CAROUSEL */
+	.full-width-carousel{
+		padding-bottom: 0;
+	}
+
+	.full-width-carousel-inner{
+		max-width: 1130px;
+    height: 75vh;
+		margin: 0 auto;
+		position: static;
+		width: auto;
+	}
+
+	.full-width-carousel-dummy{
+		position: relative;
+		margin: 0 220px;
+	}
+
+	.full-width-carousel-item-inner{
+		width: 690px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -345px;
+	}
+
+	.a-full-width-carousel-right, .a-full-width-carousel-left, .a-shop-carousel-right{
+		width: 24px;
+		height: 47px;
+		background-image: url(../_graphics/arrows-carousel.png);
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		filter: alpha(opacity=80);
+		-moz-opacity: 0.8;
+		-khtml-opacity: 0.8;
+		opacity: 0.8;
+		-webkit-transition: opacity .2s linear;
+		-moz-transition: opacity .2s linear;
+		-ms-transition: opacity .2s linear;
+		-o-transition: opacity .2s linear;
+		transition: opacity .2s linear;
+	}
+
+	.a-full-width-carousel-right, .a-full-width-carousel-left{
+		position: absolute;
+		top: 50%;
+		z-index: 15;
+		margin-top: -24px;
+	}
+
+	.a-full-width-carousel-right:hover, .a-full-width-carousel-left:hover, .a-shop-carousel-right:hover{
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		filter: alpha(opacity=100);
+		-moz-opacity: 1;
+		-khtml-opacity: 1;
+		opacity: 1;
+	}
+
+	.a-full-width-carousel-left{
+		background-position: 0 0;
+		left: 2px;
+	}
+
+	.a-full-width-carousel-right{
+		background-position: -24px 0;
+		right: 2px;
+	}
+	.fa-chevron-left {
+		padding-left: 10px;
+	}
+	.fa-chevron-right {
+		padding-right: 50px;
+	}
+	a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+				</style>
+<div class="featured-carousel full-width-carousel">
+  <div class="full-width-carousel-inner">
+    <div class="full-width-carousel-dummy">
+            <a href="" class="current full-width-carousel-item" data-i="0">
+		        <div class="full-width-carousel-item-inner">
+                <img src="http://localhost/BlueQuote/wp-content/themes/blaskan/assets/images/lejla3.jpg" alt="INTRODUCING "BLUE NOTE REVIEW" – A NEW BIANNUAL LIMITED EDITION BOXSET SUBSCRIPTION SERIES" />
+        </div>
+        <div class="featured-carousel-bg">
+			<h3>read</h3>
+			<hr class="hr-carousel" />
+						<h2> </h2>
+					</div>
+		      </a>
+            <a href="" class="full-width-carousel-item" data-i="1">
+		        <div class="full-width-carousel-item-inner">
+          <img src="http://localhost/BlueQuote/wp-content/themes/blaskan/assets/images/lejla2.jpg" alt="INTRODUCING "BLUE NOTE REVIEW" – A NEW BIANNUAL LIMITED EDITION BOXSET SUBSCRIPTION SERIES" />
+        </div>
+        <div class="featured-carousel-bg">
+			<h3>read</h3>
+			<hr class="hr-carousel" />
+						<h2>placeholder text</h2>
+					</div>
+		      </a>
+            <a href="" class="full-width-carousel-item" data-i="2">
+		        <div class="full-width-carousel-item-inner">
+          <img src="http://localhost/BlueQuote/wp-content/themes/blaskan/assets/images/lejla1.jpg" alt="Don't fight the feeling. " />
+        </div>
+        <div class="featured-carousel-bg">
+			<h3>read</h3>
+			<hr class="hr-carousel" />
+						<h2>placeholder text</h2>
+					</div>
+		      </a>
+            <a href="" class="full-width-carousel-item" data-i="3">
+		        <div class="full-width-carousel-item-inner">
+          <img src="https://scontent-frt3-2.xx.fbcdn.net/v/t31.0-8/26171111_389767411453669_5381392010791578122_o.jpg?oh=18090c4ef4093214deca5a5e4a6a7b1e&oe=5AF6A978" alt="" />
+        </div>
+        <div class="featured-carousel-bg">
+			<h3>read</h3>
+			<hr class="hr-carousel" />
+						<h2>placeholder text</h2>
+					</div>
+		      </a>
+            <a href="blue-note-tv/blue-note-all-stars-cycling-through-reality" class="full-width-carousel-item featured-video" data-i="4">
+
+		        <div class="full-width-carousel-item-inner">
+          <img src="https://scontent-frt3-2.xx.fbcdn.net/v/t31.0-8/23116769_1488040257959422_4014907476051509097_o.jpg?oh=5dc33b3a81cabde2dc625b00c17ec04e&oe=5AFE545D" alt=" "CYCLING THROUGH REALITY"" />
+        </div>
+        <div class="featured-carousel-bg">
+			<h3>read</h3>
+			<hr class="hr-carousel" />
+						<h2>placeholder text</h2>
+
+	        		</div>
+		      </a>
+
+  </div>
+  <a class="a-full-width-carousel-left fa fa-chevron-left fa-3x" href="#"></a>
+  <a class="a-full-width-carousel-right ir fa fa-chevron-right fa-4x" href="#"></a>
+</div>
+
+  <script defer src="jquery.min.js"></script>
+  <script defer src="hammer.min.js"></script>
+  <script defer src="jquery.hammer.min.js"></script>
+  <script defer src="slider_script.js"></script>
+
+
+</body>
+</html>
