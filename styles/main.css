@@ -8,3 +8,30 @@ body {
      background: url("../images/page_background.png");
 }
 /* Navigation */
+.page-header {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #191762;
+  padding-bottom: 9px;
+  margin: 10px 8% 50px;
+  border-bottom: 1px solid #191762;
+  width: 63%;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #191762;
+}
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  margin-left: 20%;
+}
+.navbar li {
+   color: #000; 
+  } 
+#logo {
+  height: 500%;
+  margin-top: -35%;
+  float: left;
+}
+
