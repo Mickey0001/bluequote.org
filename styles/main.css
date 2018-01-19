@@ -5,5 +5,6 @@ html, body {
   width: 100%;
 }
 body {
-  background-image: url("images/page_background.png");
+     background: url("../images/page_background.png");
 }
+/* Navigation */
