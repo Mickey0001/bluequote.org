@@ -3,19 +3,33 @@ html, body {
   padding-top: 5;
   height: 100%;
   max-width: 100%;
-  overflow-x: hidden;
+
 }
 body {
      background: url("../images/page_background.png");
 }
 a {
+  color: #191762;
   background-color:transparent !important;
 }
+#headline {
+  display: inline-block;
+  height: 100px;
+  line-height: 100px; 
+  vertical-align: middle;
+}
+#logo {
+  float: left;
+}
 #slogan {
- border-bottom: 2px solid #191762;
+  border-bottom: 1px solid #191762;
+ 
+  padding: 0;
+  float: left;
+  padding: 10px 5px;
 }
 .brandColor {
-  color: #191762
+  color: #191762;
 }
 .brandColorBackground {
   background-color: #191762;
@@ -27,17 +41,21 @@ a {
   background: transparent;
   border-color: transparent;
 }
-.navbar-brand {
-  padding: 0px;
+.navbar-default .navbar-nav>li>a {
+  color: #191762;
 }
-.navbar-brand>img {
-  height: 200%;
- margin-top: -10%;
-  width: auto;
+.nav.navbar-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: none;
+	}
 }
 
-
-
+/*footer styles*/
 footer .footer-above {
     background-color: transparent;
     padding-top: 50px;
@@ -51,9 +69,7 @@ footer .footer-above {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-div {
-    display: block;
-}
+
 .text-center {
     text-align: center;
 }
