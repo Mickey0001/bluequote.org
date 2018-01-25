@@ -14,19 +14,20 @@ a {
 }
 #headline {
   display: inline-block;
-  height: 100px;
-  line-height: 100px; 
-  vertical-align: middle;
 }
 #logo {
   float: left;
 }
 #slogan {
   border-bottom: 1px solid #191762;
- 
-  padding: 0;
+  margin-left: 0px;
   float: left;
-  padding: 10px 5px;
+  padding: 1px 1px;
+  height: 100px;
+  line-height: 170px; 
+  vertical-align: middle;
+  font-family: Poppins;
+  font-weight: bold;
 }
 .brandColor {
   color: #191762;
