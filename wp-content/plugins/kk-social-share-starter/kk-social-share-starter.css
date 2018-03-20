@@ -1,0 +1,245 @@
+.sss_kk_main {
+	margin: 15px auto;
+}
+
+.sss_fb_button {
+	background: url('fb-share.png') no-repeat;
+    background-size: 200px 50px;
+	width: 200px;
+	max-height: 50px;
+	height: 50px !important;
+	display: inline;
+}
+.sss_twitter_button {
+	background: url('tweet.png') no-repeat;
+    background-size: 146px 50px;
+	width: 146px;
+	max-height: 50px;
+	height: 50px !important;
+	display: inline;
+}
+.sss_gplus_button {
+	background: url('g-plus.png') no-repeat;
+    background-size: 33px 50px;
+	width: 33px;
+	max-height: 50px;
+	height: 50px !important;
+	display: inline;
+}
+.sss_l_in_button {
+	background: url('l-in.png') no-repeat;
+    background-size: 33px 50px;
+	width: 33px;
+	max-height: 50px;
+	height: 50px !important;
+	display: inline;
+}
+.sss_pin_button {
+	background: url('pint.png') no-repeat;
+    background-size: 33px 50px;
+	width: 33px;
+	max-height: 50px;
+	height: 50px !important;
+	display: inline;
+}
+.sss_email_button {
+	background: url('email.png') no-repeat;
+    background-size: 33px 50px;
+	width: 33px;
+	max-height: 50px;
+	height: 50px !important;
+	display: inline;
+}
+.sss_a_button {
+	background: url('a2.png') no-repeat;
+    background-size: 50px 50px;
+	width: 50px;
+	max-height: 50px;
+	height: 50px;
+	display: inline;
+}
+
+.sss_shares_block {
+	float: left; 
+	margin: 0 10px 0 0;
+	max-height: 50px;
+	height: 50px;
+	line-height: 1.3em;
+}
+.sss_shares_number {
+	font-size: 26px; 
+	line-height: 1em;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.sss_fb_button {
+		background: url('fb-share-2x.png') no-repeat;
+		background-size: 200px 50px;
+		width: 200px;
+		height: 50px !important;
+		display: inline;
+	}
+	.sss_twitter_button {
+		background: url('tweet-2x.png') no-repeat;
+	    background-size: 146px 50px;
+		width: 146px;
+		height: 50px !important;
+		display: inline;
+	}
+	.sss_gplus_button {
+		background: url('g-plus-2x.png') no-repeat;
+	    background-size: 33px 50px;
+		width: 33px;
+		height: 50px !important;
+		display: inline;
+	}
+	.sss_l_in_button {
+		background: url('l-in-2x.png') no-repeat;
+	    background-size: 33px 50px;
+		width: 33px;
+		height: 50px !important;
+		display: inline;
+	}
+	.sss_pin_button {
+		background: url('pint-2x.png') no-repeat;
+	    background-size: 33px 50px;
+		width: 33px;
+		height: 50px !important;
+		display: inline;
+	}
+	.sss_email_button {
+		background: url('email-2x.png') no-repeat;
+	    background-size: 33px 50px;
+		width: 33px;
+		height: 50px !important;
+		display: inline;
+	}
+	.sss_a_button {
+		background: url('a2-2x.png') no-repeat;
+	    background-size: 50px 50px;
+		width: 50px;
+		height: 50px;
+		display: inline;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	.sss_kk_main {
+		margin: 10px auto;
+	}
+
+	.sss_fb_button {
+		background-size: 152px 38px;
+		width: 152px;
+		height: 38px !important;
+		display: inline;
+	}
+	.sss_twitter_button {
+		background-size: 111px 38px;
+		width: 111px;
+		height: 38px !important;
+		display: inline;
+	}
+	.sss_gplus_button {
+		background-size: 25px 38px;
+		width: 25px;
+		height: 38px !important;
+		display: inline;
+	}
+	.sss_l_in_button {
+		background-size: 25px 38px;
+		width: 25px;
+		height: 38px !important;
+		display: inline;
+	}
+	.sss_pin_button {
+		background-size: 25px 38px;
+		width: 25px;
+		height: 38px !important;
+		display: inline;
+	}
+	.sss_email_button {
+		background-size: 25px 38px;
+		width: 25px;
+		height: 38px !important;
+		display: inline;
+	}
+	.sss_a_button {
+		background-size: 38px 38px;
+		display: none;
+		width: 38px;
+		height: 38px;
+	}
+	
+	.sss_shares_block {
+		float: left; 
+		margin: 1px 5px 0 0; 
+		height: 30px;
+		font-size: 14px; 
+	}
+	.sss_shares_number {
+		font-size: 22px; 
+		line-height: 1em;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+
+	.sss_kk_main {
+		margin: 5px auto;
+	}
+	
+	.sss_fb_button {
+		background-size: 120px 30px;
+		width: 120px;
+		height: 30px !important;
+	}
+	.sss_twitter_button {
+		background-size: 88px 30px;
+		width: 88px;
+		height: 30px !important;
+	}
+	.sss_gplus_button {
+		background-size: 20px 30px;
+		width: 20px;
+		height: 30px !important;
+	}
+	.sss_l_in_button {
+		background-size: 20px 30px;
+		display: none;
+		width: 20px;
+		height: 30px !important;
+	}
+	.sss_pin_button {
+		background-size: 20px 30px;
+		display: none;
+		width: 20px;
+		height: 30px !important;
+	}
+	.sss_email_button {
+		background-size: 20px 30px;
+		width: 20px;
+		height: 30px !important;
+	}
+	.sss_a_button {
+		background-size: 30px 30px;
+		display: none;
+		width: 30px;
+		height: 30px;
+	}
+	
+	.sss_shares_block {
+		float: left; 
+		margin: 0 2px 0 0; 
+		height: 20px;
+		font-size: 10px; 
+		line-height: 1.2em;
+	}
+	.sss_shares_number {
+		font-size: 18px; 
+		line-height: 1em;
+	}
+	
+}

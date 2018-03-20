@@ -1,0 +1,705 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GreatMag\n"
+"POT-Creation-Date: 2017-01-09 18:41+0200\n"
+"PO-Revision-Date: 2017-01-09 18:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_c;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;esc_html_x:1,2c;esc_attr_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"It looks like nothing was found at this location. Maybe go back home or see "
+"the latest posts below."
+msgstr ""
+
+#: 404.php:26
+msgid "Back home"
+msgstr ""
+
+#: comments.php:39 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42 comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:43 comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:54
+msgid "Primary"
+msgstr ""
+
+#: functions.php:55 inc/customizer.php:501
+msgid "Footer"
+msgstr ""
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:111 functions.php:129
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:142
+msgid "Footer "
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:16 inc/customizer.php:36
+msgid "General"
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Header area"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Branding style"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Left aligned"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Centered"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Menu position"
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "Before branding"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "After branding"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Social icons"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Header ad"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Header ad image"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Recommended size: 728 x 90px"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Header ad link"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Footer area"
+msgstr ""
+
+#: inc/customizer.php:168
+msgid "Footer credits"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Footer credits [HTML allowed]"
+msgstr ""
+
+#: inc/customizer.php:194
+msgid "Footer widgets"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Footer widget areas"
+msgstr ""
+
+#: inc/customizer.php:212
+msgid ""
+"Choose the number of widget areas in the footer, then go to Appearance > "
+"Widgets and add your widgets."
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "One"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Two"
+msgstr ""
+
+#: inc/customizer.php:216
+msgid "Three"
+msgstr ""
+
+#: inc/customizer.php:233
+msgid "Footer background image"
+msgstr ""
+
+#: inc/customizer.php:245 inc/customizer.php:253
+#: inc/functions/functions-footer.php:13
+msgid "Editor's choice"
+msgstr ""
+
+#: inc/customizer.php:260
+msgid "Section title"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "Posts to show"
+msgstr ""
+
+#: inc/customizer.php:278
+msgid "Comma separated list of post IDs. Example: <strong>34,56,92</strong>"
+msgstr ""
+
+#: inc/customizer.php:292
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:308
+msgid "Primary color"
+msgstr ""
+
+#: inc/customizer.php:327
+msgid "Body color"
+msgstr ""
+
+#: inc/customizer.php:337
+msgid "Category colors"
+msgstr ""
+
+#: inc/customizer.php:338
+msgid "Select a color for any category"
+msgstr ""
+
+#: inc/customizer.php:371
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:391 inc/customizer.php:903
+msgid "Site title"
+msgstr ""
+
+#: inc/customizer.php:411 inc/customizer.php:922
+msgid "Site description"
+msgstr ""
+
+#: inc/customizer.php:431
+msgid "Site branding background"
+msgstr ""
+
+#: inc/customizer.php:451
+msgid "Menu background"
+msgstr ""
+
+#: inc/customizer.php:471
+msgid "Top level menu items"
+msgstr ""
+
+#: inc/customizer.php:491
+msgid "Social&amp;latest news"
+msgstr ""
+
+#: inc/customizer.php:521
+msgid "Footer widgets background"
+msgstr ""
+
+#: inc/customizer.php:541
+msgid "Footer widgets color"
+msgstr ""
+
+#: inc/customizer.php:561
+msgid "Footer widget titles color"
+msgstr ""
+
+#: inc/customizer.php:581
+msgid "Footer credits background"
+msgstr ""
+
+#: inc/customizer.php:601
+msgid "Footer credits color"
+msgstr ""
+
+#: inc/customizer.php:613
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer.php:628
+msgid "Disable the preloader?"
+msgstr ""
+
+#: inc/customizer.php:642
+msgid "Preloader text"
+msgstr ""
+
+#: inc/customizer.php:654
+msgid "Blog options"
+msgstr ""
+
+#: inc/customizer.php:670
+msgid "Blog layout"
+msgstr ""
+
+#: inc/customizer.php:674
+msgid "List"
+msgstr ""
+
+#: inc/customizer.php:675
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer.php:676
+msgid "Masonry (grid style)"
+msgstr ""
+
+#: inc/customizer.php:677
+msgid "Masonry full width"
+msgstr ""
+
+#: inc/customizer.php:693
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer.php:709
+msgid "Read more text"
+msgstr ""
+
+#: inc/customizer.php:710
+msgid "Fill this field to replace the [&hellip;] with a link"
+msgstr ""
+
+#: inc/customizer.php:729
+msgid "Hide meta on single posts?"
+msgstr ""
+
+#: inc/customizer.php:745
+msgid "Hide meta on blog index?"
+msgstr ""
+
+#: inc/customizer.php:761
+msgid "Hide featured images on single posts?"
+msgstr ""
+
+#: inc/customizer.php:773 inc/customizer.php:788
+msgid "Custom sidebars"
+msgstr ""
+
+#: inc/customizer.php:774
+msgid ""
+"You can create sidebars here for use with the <strong>GreatMag: Sidebar</"
+"strong> widget. Create your sidebars then go to Appearance > Widgets and add "
+"widgets to them."
+msgstr ""
+
+#: inc/customizer.php:789
+msgid ""
+"Comma separated list of sidebar names (example: <strong>main,home,"
+"mycoolsidebar</strong>)"
+msgstr ""
+
+#: inc/customizer.php:803
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer.php:808
+msgid "Font selection"
+msgstr ""
+
+#: inc/customizer.php:830
+msgid "Body font"
+msgstr ""
+
+#: inc/customizer.php:847
+msgid "Headings font"
+msgstr ""
+
+#: inc/customizer.php:867
+msgid "Font weights to load"
+msgstr ""
+
+#: inc/customizer.php:869
+msgid "300"
+msgstr ""
+
+#: inc/customizer.php:870
+msgid "300 italic"
+msgstr ""
+
+#: inc/customizer.php:871
+msgid "400"
+msgstr ""
+
+#: inc/customizer.php:872
+msgid "400 italic"
+msgstr ""
+
+#: inc/customizer.php:873
+msgid "500"
+msgstr ""
+
+#: inc/customizer.php:874
+msgid "500 italic"
+msgstr ""
+
+#: inc/customizer.php:875
+msgid "600"
+msgstr ""
+
+#: inc/customizer.php:876
+msgid "600 italic"
+msgstr ""
+
+#: inc/customizer.php:886
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:941
+msgid "Menu items"
+msgstr ""
+
+#: inc/customizer.php:961
+msgid "Body (sitewide)"
+msgstr ""
+
+#: inc/customizer.php:981
+msgid "Index post titles"
+msgstr ""
+
+#: inc/customizer.php:1001
+msgid "Single post titles"
+msgstr ""
+
+#: inc/customizer.php:1021
+msgid "Sidebar widget titles"
+msgstr ""
+
+#: inc/functions/functions-blog.php:71
+msgid "Edit"
+msgstr ""
+
+#: inc/functions/functions-blog.php:78
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/functions/functions-blog.php:101
+msgid "Name"
+msgstr ""
+
+#: inc/functions/functions-blog.php:105
+msgid "Email"
+msgstr ""
+
+#: inc/functions/functions-blog.php:109
+msgid "Website"
+msgstr ""
+
+#: inc/functions/functions-blog.php:114
+msgid "Comment"
+msgstr ""
+
+#: inc/functions/functions-footer.php:91
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/functions/functions-footer.php:92
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/functions/functions-footer.php:95
+#, php-format
+msgid "Theme: %2$s by %1$s."
+msgstr ""
+
+#: inc/functions/functions-header.php:40
+msgid "Loading..."
+msgstr ""
+
+#: inc/functions/functions-header.php:215
+msgid "Latest news"
+msgstr ""
+
+#: inc/functions/functions-header.php:258
+msgid "Lost your password?"
+msgstr ""
+
+#: inc/nav_walker.php:197
+msgid "Create a menu here"
+msgstr ""
+
+#: inc/page-builder.php:54
+msgid "GreatMag Widgets"
+msgstr ""
+
+#: inc/page-builder.php:68
+msgid "Top padding"
+msgstr ""
+
+#: inc/page-builder.php:72
+msgid "Top padding for this row."
+msgstr ""
+
+#: inc/page-builder.php:76
+msgid "Bottom padding"
+msgstr ""
+
+#: inc/page-builder.php:80
+msgid "Bottom padding for this row."
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:48
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:55
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:62 template-parts/content-page.php:34
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:47
+#: template-parts/content.php:42
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:42
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: widgets/widget-author-list.php:12
+msgid "Display a list of your site's authors"
+msgstr ""
+
+#: widgets/widget-author-list.php:15
+msgid "GreatMag: Authors"
+msgstr ""
+
+#: widgets/widget-author-list.php:84 widgets/widget-featured-posts-c.php:82
+#: widgets/widget-latest-posts-home.php:92
+#: widgets/widget-most-popular-home.php:99 widgets/widget-most-popular.php:94
+#: widgets/widget-video-posts.php:95
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-featured-posts-a.php:12
+msgid "5 featured posts displayed in a grid"
+msgstr ""
+
+#: widgets/widget-featured-posts-a.php:15
+msgid "GreatMag: Featured Posts (A)"
+msgstr ""
+
+#: widgets/widget-featured-posts-a.php:89
+#: widgets/widget-featured-posts-b.php:92
+#: widgets/widget-multiple-cats-posts.php:120
+#: widgets/widget-single-category-posts-a.php:106
+#: widgets/widget-single-category-posts-b.php:107
+#: widgets/widget-single-category-posts-c.php:91
+msgid "Choose your posts"
+msgstr ""
+
+#: widgets/widget-featured-posts-a.php:90
+msgid "Select five posts to display in this widget"
+msgstr ""
+
+#: widgets/widget-featured-posts-b.php:12
+msgid "3 featured posts displayed in a grid"
+msgstr ""
+
+#: widgets/widget-featured-posts-b.php:15
+msgid "GreatMag: Featured Posts (B)"
+msgstr ""
+
+#: widgets/widget-featured-posts-b.php:93
+msgid "Select three posts to display in this widget"
+msgstr ""
+
+#: widgets/widget-featured-posts-c.php:12
+msgid "A single featured post"
+msgstr ""
+
+#: widgets/widget-featured-posts-c.php:15
+msgid "GreatMag: Featured Post (C)"
+msgstr ""
+
+#: widgets/widget-featured-posts-c.php:85
+msgid "Choose your post"
+msgstr ""
+
+#: widgets/widget-featured-posts-c.php:86
+msgid "Select one post to display in this widget"
+msgstr ""
+
+#: widgets/widget-latest-posts-home.php:12
+msgid "Displays your latest posts"
+msgstr ""
+
+#: widgets/widget-latest-posts-home.php:15
+msgid "GreatMag: Latest posts (homepage)"
+msgstr ""
+
+#: widgets/widget-latest-posts-home.php:94
+#: widgets/widget-most-popular-home.php:102 widgets/widget-most-popular.php:97
+#: widgets/widget-posts-carousel.php:73
+#: widgets/widget-single-category-posts-a.php:103
+#: widgets/widget-single-category-posts-b.php:105
+#: widgets/widget-single-category-posts-c.php:89
+#: widgets/widget-video-posts.php:98
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/widget-most-popular-home.php:12 widgets/widget-most-popular.php:12
+msgid "Most popular posts in the current week, sorted by comment count"
+msgstr ""
+
+#: widgets/widget-most-popular-home.php:15
+msgid "GreatMag: Most popular (homepage)"
+msgstr ""
+
+#: widgets/widget-most-popular.php:15
+msgid "GreatMag: Most popular"
+msgstr ""
+
+#: widgets/widget-multiple-cats-posts.php:12
+msgid "Displays posts from multiple categories"
+msgstr ""
+
+#: widgets/widget-multiple-cats-posts.php:15
+msgid "GreatMag: Multiple category posts"
+msgstr ""
+
+#: widgets/widget-multiple-cats-posts.php:117
+msgid "Number of posts to display for each category:"
+msgstr ""
+
+#: widgets/widget-multiple-cats-posts.php:122
+msgid "Select the categories you wish to display posts from."
+msgstr ""
+
+#: widgets/widget-posts-carousel.php:13
+msgid "Posts displayed in a carousel"
+msgstr ""
+
+#: widgets/widget-posts-carousel.php:16
+msgid "GreatMag: Posts Carousel"
+msgstr ""
+
+#: widgets/widget-sidebar.php:13
+msgid "Display widgets from a sidebar of your choice"
+msgstr ""
+
+#: widgets/widget-sidebar.php:16
+msgid "GreatMag: Sidebar"
+msgstr ""
+
+#: widgets/widget-sidebar.php:50
+msgid "Choose the sidebar you want to display in this widget"
+msgstr ""
+
+#: widgets/widget-sidebar.php:51
+msgid "To register more custom sidebars, please go to Customize > Sidebars."
+msgstr ""
+
+#: widgets/widget-single-category-posts-a.php:12
+msgid "Displays posts from a single category (style A)"
+msgstr ""
+
+#: widgets/widget-single-category-posts-a.php:15
+msgid "GreatMag: Single category posts (A)"
+msgstr ""
+
+#: widgets/widget-single-category-posts-b.php:12
+msgid "Displays posts from a single category (style B)"
+msgstr ""
+
+#: widgets/widget-single-category-posts-b.php:15
+msgid "GreatMag: Single category posts (B)"
+msgstr ""
+
+#: widgets/widget-single-category-posts-c.php:12
+msgid "Displays posts from a single category (style C)"
+msgstr ""
+
+#: widgets/widget-single-category-posts-c.php:15
+msgid "GreatMag: Single category posts (C)"
+msgstr ""
+
+#: widgets/widget-video-posts.php:12
+msgid "Displays your latest video format posts"
+msgstr ""
+
+#: widgets/widget-video-posts.php:15
+msgid "GreatMag: Video Posts"
+msgstr ""

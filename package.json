@@ -1,0 +1,19 @@
+{
+  "name": "bluequote",
+  "version": "1.0.0",
+  "description": "Site for lejla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@githubm.com:Mickey0001/bluequote.org"
+  },
+  "author": "Mirza",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1"
+  }
+}

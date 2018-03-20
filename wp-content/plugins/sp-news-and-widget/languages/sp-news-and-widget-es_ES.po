@@ -1,0 +1,212 @@
+# Translation of Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-07-05 10:14+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+"Project-Id-Version: Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+
+#: news_menu_function.php:11
+msgid "Plugin Designs"
+msgstr ""
+
+#: news_menu_function.php:12
+msgid "Our Plugins"
+msgstr ""
+
+#: news_menu_function.php:78
+msgid "There was an error retrieving the data from the server. Please try again later."
+msgstr ""
+
+#: sp-news-and-widget.php:94 sp-news-and-widget.php:95
+msgctxt "sp-news-and-widget"
+msgid "Category"
+msgstr ""
+
+#: widget_function.php:176
+msgid "Pause:"
+msgstr "Parar:"
+
+#: widget_function.php:180
+msgid "Speed:"
+msgstr ""
+
+#: widget_function.php:297
+msgid "Displayed Latest News Items in a sidebar with thumbnails"
+msgstr ""
+
+#: widget_function.php:299
+msgid "Latest News with thumb"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP News and three widgets(static, scrolling and with thumbs)"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A simple News and three widgets(static, scrolling and with thumbs) plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Online Support"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wponlinesupport.com/"
+msgstr ""
+
+#: widget_function.php:134
+msgid "Scroll Latest News Items from the News  in a sidebar"
+msgstr ""
+
+#: widget_function.php:136
+msgid "Latest News Scrolling Widget"
+msgstr ""
+
+#: widget_function.php:172
+msgid "Height:"
+msgstr "Largo:"
+
+#: widget_function.php:24 widget_function.php:155 widget_function.php:316
+msgid "Number of Items: "
+msgstr ""
+
+#: widget_function.php:27 widget_function.php:158 widget_function.php:319
+msgid "Display Date"
+msgstr ""
+
+#: widget_function.php:31 widget_function.php:162 widget_function.php:323
+msgid "Display Category"
+msgstr ""
+
+#: widget_function.php:34 widget_function.php:165 widget_function.php:326
+msgid "Category:"
+msgstr "Categoría:"
+
+#: widget_function.php:36 widget_function.php:167 widget_function.php:328
+msgid "All"
+msgstr "Todos"
+
+#: widget_function.php:5
+msgid "Displayed Latest News Items from the News  in a sidebar"
+msgstr ""
+
+#: widget_function.php:7
+msgid "Latest News Widget"
+msgstr ""
+
+#: widget_function.php:23 widget_function.php:154 widget_function.php:315
+msgid "Title:"
+msgstr "Titulo:"
+
+#: sp-news-and-widget.php:351
+msgid "Posts"
+msgstr "Publicaciones"
+
+#: sp-news-and-widget.php:349
+msgid "News Category Shortcode"
+msgstr ""
+
+#: sp-news-and-widget.php:350
+msgid "Slug"
+msgstr "URL única"
+
+#: sp-news-and-widget.php:348
+msgid "Name"
+msgstr "Nom"
+
+#: sp-news-and-widget.php:104
+msgid "News Category"
+msgstr ""
+
+#: sp-news-and-widget.php:281
+msgid "Read More"
+msgstr "Lea más"
+
+#: sp-news-and-widget.php:103
+msgid "New Category Name"
+msgstr "Novo Nome da Categoria"
+
+#: sp-news-and-widget.php:102
+msgid "Add New Category"
+msgstr "Adicionar Nova Categoria"
+
+#: sp-news-and-widget.php:101
+msgid "Update Category"
+msgstr "Atualizar Categoria"
+
+#: sp-news-and-widget.php:99
+msgid "Parent Category:"
+msgstr "Categoria Parente:"
+
+#: sp-news-and-widget.php:100
+msgid "Edit Category"
+msgstr "Modificar Categoría"
+
+#: sp-news-and-widget.php:96
+msgid "Search Category"
+msgstr ""
+
+#: sp-news-and-widget.php:97
+msgid "All Category"
+msgstr ""
+
+#: sp-news-and-widget.php:98
+msgid "Parent Category"
+msgstr "Categoria Parente"
+
+#: sp-news-and-widget.php:54
+msgctxt "sp-news-and-widget"
+msgid "News"
+msgstr ""
+
+#: sp-news-and-widget.php:55
+msgctxt "sp-news-and-widget"
+msgid "news"
+msgstr ""
+
+#: sp-news-and-widget.php:56
+msgctxt "sp-news-and-widget"
+msgid "Add News Item"
+msgstr ""
+
+#: sp-news-and-widget.php:57
+msgid "Add New News Item"
+msgstr ""
+
+#: sp-news-and-widget.php:58
+msgid "Edit News Item"
+msgstr ""
+
+#: sp-news-and-widget.php:59
+msgid "New News Item"
+msgstr ""
+
+#: sp-news-and-widget.php:60
+msgid "View News Item"
+msgstr ""
+
+#: sp-news-and-widget.php:61
+msgid "Search  News Items"
+msgstr ""
+
+#: sp-news-and-widget.php:62
+msgid "No News Items found"
+msgstr ""
+
+#: sp-news-and-widget.php:63
+msgid "No News Items found in Trash"
+msgstr ""
+
+#: sp-news-and-widget.php:66
+msgctxt "admin menu"
+msgid "News"
+msgstr ""

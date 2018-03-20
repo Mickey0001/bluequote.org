@@ -1,0 +1,14 @@
+/* Builder Static Badge */
+.themify-builder-static-badge-box {
+	border: 1px solid #CCCCCC;
+	background: #EFEFEF;
+	padding: 10px 20px;
+	color: #545454;
+}
+.themify-builder-static-badge-box a {
+	color:#654CB5;
+	text-decoration: none;
+}
+.themify-builder-static-badge-box h4 {
+	margin:0;
+}
