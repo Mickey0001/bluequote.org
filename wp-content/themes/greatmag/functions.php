@@ -106,7 +106,7 @@ add_action( 'after_setup_theme', 'greatmag_content_width', 0 );
  */
 function greatmag_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'greatmag' ),
+		'name'          => esc_html__( 'Right Sidebar', 'greatmag' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'greatmag' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -115,25 +115,34 @@ function greatmag_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 
+	register_sidebar(array(
+		'name' => 'Left Sidebar',
+		'id' => 'sidebar-2',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+));
+
 	//Custom sidebars
-	$sidebars = get_theme_mod('custom_sidebars');
+	// $sidebars = get_theme_mod('custom_sidebars');
 
-	if ( $sidebars != '' ) {
+	// if ( $sidebars != '' ) {
 
-		$sidebars = explode(',', $sidebars);
+	// 	$sidebars = explode(',', $sidebars);
 
-		foreach ( $sidebars as $sidebar ) {
-			register_sidebar( array(
-				'name'          => ucfirst( esc_html($sidebar) ),
-				'id'            => $sidebar,
-				'description'   => esc_html__( 'Add widgets here.', 'greatmag' ),
-				'before_widget' => '<section id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</section>',
-				'before_title'  => '<h3 class="widget-title">',
-				'after_title'   => '</h3>',
-			) );
-		}
-	}
+	// 	foreach ( $sidebars as $sidebar ) {
+	// 		register_sidebar( array(
+	// 			'name'          => ucfirst( esc_html($sidebar) ),
+	// 			'id'            => $sidebar,
+	// 			'description'   => esc_html__( 'Add widgets here.', 'greatmag' ),
+	// 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+	// 			'after_widget'  => '</section>',
+	// 			'before_title'  => '<h3 class="widget-title">',
+	// 			'after_title'   => '</h3>',
+	// 		) );
+	// 	}
+	// }
 
 	//Footer widget areas
 	$widget_areas = get_theme_mod('footer_widget_areas', '3');

@@ -4,7 +4,7 @@ Theme URI: http://athemes.com/theme/greatmag/
 Author: aThemes
 Author URI: http://athemes.com
 Description: GreatMag is a modern magazine theme that gives you all the tools you need to quickly build an awesome news site or even a simple blog. GreatMag comes with tons of custom widgets, color options, font control and much more.
-Version: 1234531261276317263127361923617263211231236789.06
+Version: 99.99
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: greatmag
@@ -1561,7 +1561,6 @@ body.page-boxed {
 ## Home
 --------------------------------------------------------------*/
 body {
-  background-color: #eee;
   color: #666;
   font-size: 14px;
   line-height: 2;

@@ -55,6 +55,6 @@ if ( $layout == 'masonry-full' ) {
 <?php
 $layout = get_theme_mod( 'blog_layout', 'list' );
 if ( $layout != 'masonry-full' ) {
-	get_sidebar();
+	get_sidebar('sidebar-2');
 }
 get_footer();

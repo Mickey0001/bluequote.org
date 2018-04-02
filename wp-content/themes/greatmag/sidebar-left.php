@@ -7,11 +7,12 @@
  * @package GreatMag
  */
 
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+if ( ! is_active_sidebar( 'sidebar-2' ) ) {
 	return;
 }
 ?>
 
-<aside id="secondary" class="widget-area col-md-2 sidebar-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
+<aside id="secondary2" class="col-md-2" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
 </aside><!-- #secondary -->
+

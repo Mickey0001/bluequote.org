@@ -14,6 +14,11 @@
 
 get_header(); ?>
 
+<div id="layout" class="pagewidth clearfix <?php echo $layout; ?>">
+<aside id="sidebar-2">
+    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) ?>
+</aside>
+
 	<div id="primary" class="content-area col-md-8">
 		<main id="main" class="site-main">
 

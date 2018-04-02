@@ -1,40 +1,4 @@
-<?php
-/**
- * The header for our theme.
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package GreatMag
- */
-
-?><!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"/>
-
-<?php wp_head(); ?>
-</head>
-<?php if ( function_exists( 'mltlngg_display_switcher' ) ) mltlngg_display_switcher(); ?>
-<body <?php body_class(); ?>
-<div id="page" data-bodyimg="<?php header_image(); ?>" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'greatmag' ); ?></a>
-	<?php 
-	do_action('greatmag_before_header');
-
-	do_action('greatmag_header');
-
-	do_action('greatmag_after_header');
-	?>
-	<!-- Carousel -->
-
-<!--Carousel end-->
-
-
+<!--Carousel-->
 <style>
 				.full-width-carousel{
 					width: 100%;
@@ -302,7 +266,6 @@
 							}   
 							.full-width-carousel {
 								background: transparent;
-								display: none; 
 							}
 						}
 				</style>
@@ -357,21 +320,14 @@
   <a class="a-full-width-carousel-left fa fa-chevron-left fa-3x" href="#"></a>
   <a class="a-full-width-carousel-right ir fa fa-chevron-right fa-4x" href="#"></a>
 </div>
+<!--Carousel end-->
 
-	<!--CDNs-->
+	<!--Scripts-->
 	<script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/jquery-hammerjs@2.0.0/jquery.hammer.min.js"></script>
 	<script defer src="http://localhost/BlueQuote/wp-content/themes/greatmag/js/slider.js">
-	</script>
+	</script> 
+	<!--Scripts end-->
 </div>		
 
-
-<div id="content" class="site-content">
-		<div class="container">
-			<div class="row">
-
-
-
-			
-	
